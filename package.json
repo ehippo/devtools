@@ -1,0 +1,27 @@
+{
+  "name": "devtools",
+  "version": "1.0.0",
+  "description": "devtools",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite", 
+    "build": "vite build", 
+    "preview": "vite preview", 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehippo/devtools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehippo/devtools/issues"
+  },
+  "homepage": "https://github.com/ehippo/devtools#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^7.1.9"
+  }
+}
